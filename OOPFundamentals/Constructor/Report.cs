@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Constructor
+﻿namespace Constructor
 {
     public class Report : IDisposable
     {
         public string ReportType { get; set; }
         public string ExcelFilePath { get; set; }
 
-        public Report(string path): this(path,"PDF")
+        public Report(string path) : this(path, "PDF")
         {
-          
-         
+
+
 
         }
 

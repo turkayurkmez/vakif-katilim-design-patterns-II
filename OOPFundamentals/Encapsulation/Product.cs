@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Encapsulation
+﻿namespace Encapsulation
 {
     public class Product
     {
@@ -24,14 +18,14 @@ namespace Encapsulation
             return this.price;
         }
 
-        private string name=string.Empty;
+        private string name = string.Empty;
 
         public string Name
         {
             get { return name; }
             set
             {
-                if (value.Length<3)
+                if (value.Length < 3)
                 {
                     throw new Exception("Ürün adı en az 3 harf olmalı");
                 }

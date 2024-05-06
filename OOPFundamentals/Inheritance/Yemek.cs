@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Channels;
-using System.Threading.Tasks;
-
-namespace Inheritance
+﻿namespace Inheritance
 {
     public class Yemek
     {
@@ -39,12 +32,12 @@ namespace Inheritance
         }
     }
 
-    public class ZeytinYagli: Yemek
+    public class ZeytinYagli : Yemek
     {
         public bool SogukMu { get; set; }
     }
 
-    public class Kereviz: ZeytinYagli
+    public class Kereviz : ZeytinYagli
     {
         public Kereviz()
         {
@@ -53,7 +46,7 @@ namespace Inheritance
 
     }
 
-    public class Tatli: Yemek
+    public class Tatli : Yemek
     {
         public bool SerbetliMi { get; set; }
         public override void SunumYap() => Console.WriteLine($"{GetType().Name}, yanında dondurmayla sunuldu");
@@ -66,7 +59,7 @@ namespace Inheritance
             PismeSuresi = 40;
         }
 
-       
+
     }
 
 }

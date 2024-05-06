@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AbstractAndInterface
+﻿namespace AbstractAndInterface
 {
     public interface IPrintable
     {
         void Print();
     }
-    public abstract  class Document
+    public abstract class Document
     {
         public void Copy(string from, string to) => Console.WriteLine("Kopyalandı");
         public void Move(string from, string to) => Console.WriteLine("Taşındı");
@@ -23,7 +17,7 @@ namespace AbstractAndInterface
 
         //Her dokümanın çıktısının alınmasını istemiyoruz!
         //public abstract void Print();
-        
+
 
     }
 
@@ -34,7 +28,7 @@ namespace AbstractAndInterface
             throw new NotImplementedException();
         }
 
-    
+
 
         public override void Save()
         {

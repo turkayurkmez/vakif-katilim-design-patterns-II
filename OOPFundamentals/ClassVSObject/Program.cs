@@ -3,7 +3,7 @@ using ClassVSObject;
 
 Console.WriteLine("Hello, World!");
 
-Product keyboard = new Product ();
+Product keyboard = new Product();
 keyboard.Name = "Logitech Bluetooth";
 int number = 9;
 
