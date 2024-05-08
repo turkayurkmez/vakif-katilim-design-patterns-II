@@ -18,6 +18,8 @@ red.R = 255;
 red.G = 0;
 red.B = 0;
 
-Console.WriteLine(red);
+Console.WriteLine( $"{red.R} {red.GetHashCode()}");
+Console.WriteLine($"{black.R} {black.GetHashCode()}");
+
 
 

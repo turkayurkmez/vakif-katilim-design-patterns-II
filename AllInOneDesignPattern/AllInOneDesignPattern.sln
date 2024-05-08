@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Build
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Creational\Prototype\Prototype.csproj", "{01F0F1F6-BE72-4BF5-9993-66E4F5014D9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{8C034865-4DEE-44EB-9164-5D8F263A7694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{01F0F1F6-BE72-4BF5-9993-66E4F5014D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01F0F1F6-BE72-4BF5-9993-66E4F5014D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01F0F1F6-BE72-4BF5-9993-66E4F5014D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C034865-4DEE-44EB-9164-5D8F263A7694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C034865-4DEE-44EB-9164-5D8F263A7694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C034865-4DEE-44EB-9164-5D8F263A7694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C034865-4DEE-44EB-9164-5D8F263A7694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{46C4CC90-6E6A-4D8E-B8AD-136F3570E333} = {E573550A-C6D9-466F-BE7A-6096A43B096D}
 		{75E02813-EBA1-4FE1-8C86-EE14DC58AD79} = {E573550A-C6D9-466F-BE7A-6096A43B096D}
 		{01F0F1F6-BE72-4BF5-9993-66E4F5014D9D} = {E573550A-C6D9-466F-BE7A-6096A43B096D}
+		{8C034865-4DEE-44EB-9164-5D8F263A7694} = {E573550A-C6D9-466F-BE7A-6096A43B096D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {263EE9CF-6B52-49CB-A61E-42706CDEF8FB}
