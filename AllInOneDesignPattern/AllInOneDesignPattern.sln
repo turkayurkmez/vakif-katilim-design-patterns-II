@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyWindows", "ProxyWindow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{3B932145-F6EB-4FB2-86F0-346B41943333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Behavioral\Command\Command.csproj", "{F0CB4D44-C2C6-4265-8450-CFBEBBA6656F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{3B932145-F6EB-4FB2-86F0-346B41943333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B932145-F6EB-4FB2-86F0-346B41943333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B932145-F6EB-4FB2-86F0-346B41943333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CB4D44-C2C6-4265-8450-CFBEBBA6656F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CB4D44-C2C6-4265-8450-CFBEBBA6656F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CB4D44-C2C6-4265-8450-CFBEBBA6656F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CB4D44-C2C6-4265-8450-CFBEBBA6656F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{88F1F718-B358-4362-97FD-50D17C03B957} = {57F9A09D-7F66-4787-951C-F6FAF41F2A55}
 		{70FC3FDD-51C8-4163-B2B9-9DA9A01ED0B0} = {57F9A09D-7F66-4787-951C-F6FAF41F2A55}
 		{3B932145-F6EB-4FB2-86F0-346B41943333} = {D7786C84-6E99-4CA4-9E00-CE367D080794}
+		{F0CB4D44-C2C6-4265-8450-CFBEBBA6656F} = {D7786C84-6E99-4CA4-9E00-CE367D080794}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {263EE9CF-6B52-49CB-A61E-42706CDEF8FB}
